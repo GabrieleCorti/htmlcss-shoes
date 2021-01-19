@@ -8,6 +8,8 @@ body {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* navbar */
+/* potevo dividere l'header e dare proprietà divise a header e poi alla lista  */
 ul {
   position: fixed;
   top: 0;
@@ -35,9 +37,9 @@ a {
   height: 50px;
   margin: 15px;
   background-color: white;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
 }
-
+/* fine navbar */
 section {
   height: 100vh;
   position: relative;
@@ -61,8 +63,11 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+h2{
   color: yellow;
-  font-size: 25px;
+  font-size: 38px;
 }
 
 #section-tre h2{
